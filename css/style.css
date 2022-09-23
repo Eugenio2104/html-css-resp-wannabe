@@ -129,8 +129,21 @@ img {
  ************************************************/
 
 
+
  @media (max-width:768px) {
     .container{
         width: 100%;
     }
  }
+
+ /*versione mobile*/
+
+ @media screen(max-width:480px) {
+    .row{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+
+
